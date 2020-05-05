@@ -1,14 +1,124 @@
+
 <!DOCTYPE html>
-
 <html>
+<head>
 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+body {
+  background-color: Lavender;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  background-color: DodgerBlue;
+  color: black;
+  padding: 20px;
+  text-align: center;
+font-size: 25px;
+} 
+
+article {
+  float: left;
+  padding: 20px;
+  width: 100%;
+  background-color: #f1f1f1;
+  height: 500px; /* only for demonstration, should be removed */
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 1550px) {
+  
+  article{
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+</style>
+</head>
 <body>
+<header>
+	<p><h1 id="myHeader">3D-Modeling</h1></p>
+</header>
 
-<h1>3d-Modeling</h1>
+<section>
 
-<p>I'm Hosted with no love :( </p>
+<article>
 
-<body bgcolor = "AliceBlue">
+<p style = "font-size: 18px;">
+   I have vast amounts of time in the modeling program Solidworks and I have been familiarized with 
+	the software AutoCad since highschool. I do not have images of the things I made in highschool 5 years 
+	ago; However, I do have the recent things that I have modeled in SolidWorks.
+</p>
+
+<p style = "font-weight: bold; font-size: 18px;">  
+	Listed below are the models that will be showcased below.
+</p>
+
+<ul style = "font-size: 18px;">
+	<li>Sheet Metal Box</li>
+	<li>Assembly of a Piston</li>
+	<li>3D Rendering of Parts</li>
+
+	<li>Structural Analysis of Parts</li>
+</ul>
+
+<! SHEET METAL BOX ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+
+<p style = "font-weight: bold; font-size: 18px;">
+Sheet Metal Box
+</p>
+
+<p style = "font-size: 18px;"><img src="BoxOpen.PNG" alt="Open Box" style="float:left;width:25%;height:25%">
+<img src="BoxClosed.PNG" alt="Closed Box" style="float:right;width:25%;height:25%">
+To the left you will find a sheet metal box in its opened position and to the right you will find 
+the same part has been demonstratively folded to ensure that the sheet metal may be folded the way
+intended. Knowing how to do this allows for a very practicle skill of designing a box that starts
+flat in an assembly line and is meant to fold.
+</p> 
+
+<! PISTON ASSEMBLY ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~>
+
+<p style = "font-weight: bold; font-size: 18px;">
+Assembly of a Piston
+</p>
+
+<p style = "font-size: 18px;"><img src="Piston.PNG" alt="piston" style="float:left;width:25%;height:25%">
+To the left you will find a sheet metal box in its opened position and to the right you will find 
+This is a 3D-model of a working piston that I created. A simple tool that 
+</p> 
+
+</article>
+  
+</section>
+
+<footer>
+
+<p style = "text-align:center; font-weight: bold;">Contact me through E-mail: Shane.B.Engineer@gmail.com	or through phone: 770-680-9557 </p>
+
+</footer>
+
+
 </body>
-
 </html>
+
